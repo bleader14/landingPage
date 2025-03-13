@@ -4,6 +4,61 @@
     box-sizing: border-box;
 }
 
-div {
+body {
+    font-family: "Roboto", "Verdana", sans-serif;
+    min-height: 100vh;
+    background-color: aliceblue;
+    align-items: center;
+    flex-direction: column;
+    padding: 35px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+
+/* Hero formatting */
+.header{
+    justify-content: space-around;
     display: flex;
+    background-color: #1F2937;
+    padding: 8px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+    font-size: 24px;
+
+   
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+}
+a {
+    text-decoration: none;
+}
+
+.hero {
+    min-width: 100%;
+    display: flex;
+    background-color: #1F2937;
+    padding: 32px;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
 }
